@@ -1,0 +1,1160 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BDCC72F7C19BBFAF88E805DEAFB09E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3740DF8E6E1ED99C3CCE9255A998D81 /* Foundation.framework */; };
+		16C3B902738DCEE43CF4F37D9EFC3411 /* MRJSinglePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D254DFF1AEF440D5A73F8A409B5784A /* MRJSinglePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B05AA516F100D353F656A14D53D4B59 /* UIView+MRJFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 071B0AC6CB0FB80B127E724871D693B3 /* UIView+MRJFrame.m */; };
+		2E2E7802DE58BDE13B10D7EABB561842 /* UIViewMRJFrame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7DD6E711A70664DCD945A16CB2CD82 /* UIViewMRJFrame-dummy.m */; };
+		320A1EC0EAA3580B332893E488CD1ED1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3740DF8E6E1ED99C3CCE9255A998D81 /* Foundation.framework */; };
+		33AB064C0689842B925056BE036F4A7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3740DF8E6E1ED99C3CCE9255A998D81 /* Foundation.framework */; };
+		4AF2856876B8EA3003EFD20D4A33BC37 /* MRJUIColorAdditions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97825A11B3646618E1F0517BD7AB6814 /* MRJUIColorAdditions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CAD050ACB0B6BE34E29C9B5A753EA09 /* BasePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 985FD9F895B761F1F0C48C1B40C8DDF4 /* BasePickerView.m */; };
+		5AF9880CB4C4B2CF52582485C4FB5365 /* Pods-MRJSingelPickerView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA52B812AC2CEA1581E3783346E677E8 /* Pods-MRJSingelPickerView_Example-dummy.m */; };
+		65BDA6348A438DEFB6CE85CD9471B5EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3740DF8E6E1ED99C3CCE9255A998D81 /* Foundation.framework */; };
+		88F36DBD920E4E482A655A265EA046A6 /* UIView+MRJFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = D2575AB2B63A15E135D01AAAFFE511E6 /* UIView+MRJFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D6001C1313E5C82ACC07BBDA302A202 /* BasePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = A455EA3F14E55B4AFB8E478346FBCDA6 /* BasePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90DBE3BC172F90F20E24A022B8142B08 /* MRJSingelPickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C62CD85B2C1AFF6F8CA434DB76D40912 /* MRJSingelPickerView-dummy.m */; };
+		948DAF51B7E402A10131B2ECCC50FCF4 /* Pods-MRJSingelPickerView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2060FF9D9F7EF868D4E2D9B69DEDC29F /* Pods-MRJSingelPickerView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94B43853BF774DDD578EBF903CC5AB8D /* MRJUIColorAdditions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A872984BADD6F4134C1874D0F3082E /* MRJUIColorAdditions.framework */; };
+		9692E74DF2B337208B7613DE42270F04 /* UIColor+MRJAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 225643BB20DD3446DDBB92DB2CB35052 /* UIColor+MRJAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96F295F0EEEAEEF3DE03B41E46CE4184 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3740DF8E6E1ED99C3CCE9255A998D81 /* Foundation.framework */; };
+		98F2395B53C5B4487993FAA6B06333C8 /* Pods-MRJSingelPickerView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B344457CCA7CCC97AE3BE4BC5D45A67 /* Pods-MRJSingelPickerView_Tests-dummy.m */; };
+		9DDAAC85788106AB937C9F3A6CCB38DC /* MRJSingelPickerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C78140F67023100E41E6151E978F27A /* MRJSingelPickerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9ECF789E0F7CAFE7B5406B1BDA0BCF83 /* MRJSinglePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DEC703B8AB3089BE85A99C2EBCE6731 /* MRJSinglePickerView.m */; };
+		B394D577B79856DA6695601AC02EA881 /* UIViewMRJFrame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E302BA554D77A0B35C3A84691673158 /* UIViewMRJFrame.framework */; };
+		B51073F95BC0A2D2CB027C985C4E1E3F /* Pods-MRJSingelPickerView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1B3C90C8F92B5F63AAD06971BF0DFA /* Pods-MRJSingelPickerView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC3684C3C67F2447BD9FB6673CEC8288 /* UIViewMRJFrame-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0B1F6539A301F930B66D8E76DCD6B6 /* UIViewMRJFrame-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8ED3A0B6A6197A86B5DBC3D32290905 /* MRJUIColorAdditions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60563BBB582889537D061ED514E0FED1 /* MRJUIColorAdditions-dummy.m */; };
+		FB777F89D00F898DAEA682015CFF89AF /* UIColor+MRJAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6084708E4EAAD747D38E3FC443FC3397 /* UIColor+MRJAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		124AB6EDF4C363A6F4F5A28FF94BC59C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C77154DBE47BA8AC0B084AB276EBFB3;
+			remoteInfo = UIViewMRJFrame;
+		};
+		26039DD4FA51D05A34A7DA110D45DBD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAA1272559952B4596781D33399C6C1B;
+			remoteInfo = MRJUIColorAdditions;
+		};
+		29B7453827A4A7CCE39D80307B073516 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40FE709C3908756EAADEB5FAE85CE0C2;
+			remoteInfo = "Pods-MRJSingelPickerView_Example";
+		};
+		31E4EE7BA039FD45D99A7D77BBB30A78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAA1272559952B4596781D33399C6C1B;
+			remoteInfo = MRJUIColorAdditions;
+		};
+		D7E821BA9F188D8D51B54AC221DB099A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD23D48CE20581B150FC7C984B94AA44;
+			remoteInfo = MRJSingelPickerView;
+		};
+		E0CDB4E5F9397E94BEF4E12A0977020B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C77154DBE47BA8AC0B084AB276EBFB3;
+			remoteInfo = UIViewMRJFrame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D2B18B08CB5A0DF43A0294D1B4D104 /* Pods_MRJSingelPickerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MRJSingelPickerView_Example.framework; path = "Pods-MRJSingelPickerView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06F7F469E04E6EE3C19E508B8776385D /* UIViewMRJFrame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIViewMRJFrame.framework; path = UIViewMRJFrame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06FAEE977FC769670CA33FCCD5710E8C /* MRJUIColorAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MRJUIColorAdditions.framework; path = MRJUIColorAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		071B0AC6CB0FB80B127E724871D693B3 /* UIView+MRJFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MRJFrame.m"; path = "UIViewMRJFrame/Classes/UIView+MRJFrame.m"; sourceTree = "<group>"; };
+		0DEC703B8AB3089BE85A99C2EBCE6731 /* MRJSinglePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MRJSinglePickerView.m; path = MRJSingelPickerView/Classes/MRJSinglePickerView.m; sourceTree = "<group>"; };
+		0E302BA554D77A0B35C3A84691673158 /* UIViewMRJFrame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIViewMRJFrame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F7DD6E711A70664DCD945A16CB2CD82 /* UIViewMRJFrame-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewMRJFrame-dummy.m"; sourceTree = "<group>"; };
+		1C78140F67023100E41E6151E978F27A /* MRJSingelPickerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRJSingelPickerView-umbrella.h"; sourceTree = "<group>"; };
+		2060FF9D9F7EF868D4E2D9B69DEDC29F /* Pods-MRJSingelPickerView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MRJSingelPickerView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		214ADF21255DB7BC32895793695192EF /* StringMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StringMacro.h; path = MRJTool/Classes/Marco/StringMacro.h; sourceTree = "<group>"; };
+		225643BB20DD3446DDBB92DB2CB35052 /* UIColor+MRJAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+MRJAdditions.h"; path = "MRJUIColorAdditions/Classes/UIColor+MRJAdditions.h"; sourceTree = "<group>"; };
+		2407B9E78894BE4867265768C3526F88 /* UIViewMRJFrame.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UIViewMRJFrame.modulemap; sourceTree = "<group>"; };
+		3215D2844709BDDDB3CEC30D05AA270B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3927AAA77BE08C6E0894CB6B64E6445E /* Pods-MRJSingelPickerView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRJSingelPickerView_Tests-resources.sh"; sourceTree = "<group>"; };
+		3B344457CCA7CCC97AE3BE4BC5D45A67 /* Pods-MRJSingelPickerView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MRJSingelPickerView_Tests-dummy.m"; sourceTree = "<group>"; };
+		3C7FBE68AAE951894FC2435CCA508DE1 /* MRJSingelPickerView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MRJSingelPickerView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		42EDF98A7A9F176CC24B313A4086929A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B64E35869AD6D39D00389B7BBBD4481 /* Pods-MRJSingelPickerView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRJSingelPickerView_Example-resources.sh"; sourceTree = "<group>"; };
+		54A872984BADD6F4134C1874D0F3082E /* MRJUIColorAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MRJUIColorAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60563BBB582889537D061ED514E0FED1 /* MRJUIColorAdditions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MRJUIColorAdditions-dummy.m"; sourceTree = "<group>"; };
+		6084708E4EAAD747D38E3FC443FC3397 /* UIColor+MRJAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+MRJAdditions.m"; path = "MRJUIColorAdditions/Classes/UIColor+MRJAdditions.m"; sourceTree = "<group>"; };
+		60A232F46C1BF37BA05CEA3FE91ADE90 /* MRJSingelPickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MRJSingelPickerView.framework; path = MRJSingelPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B0D923ECB82637A88EC0F78388AF55 /* UIViewMRJFrame.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIViewMRJFrame.xcconfig; sourceTree = "<group>"; };
+		6CBA8D6958A16F643A235B4B43F1AF15 /* Pods-MRJSingelPickerView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MRJSingelPickerView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6E8CBAC98312F717216D6C9ACB3C2C40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		74B3086F78FDD4F5CE319331FAAF7F46 /* Pods-MRJSingelPickerView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRJSingelPickerView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7B1B3C90C8F92B5F63AAD06971BF0DFA /* Pods-MRJSingelPickerView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MRJSingelPickerView_Example-umbrella.h"; sourceTree = "<group>"; };
+		8921291E138789EE2EED5DB7F4FE4FD0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9178BF893035922C53A65B2254413582 /* Macro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Macro.h; path = MRJTool/Classes/Marco/Macro.h; sourceTree = "<group>"; };
+		939FBCF540A616974A74C3321DCCF0B4 /* MRJSingelPickerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRJSingelPickerView.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		947164E8D71A6E1DF5E1F2EEB2773874 /* MRJUIColorAdditions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRJUIColorAdditions-prefix.pch"; sourceTree = "<group>"; };
+		94D05817303D39B5E8398D752F64C221 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		974EEC05FD289A6109AD78B489D5166F /* MRJUIColorAdditions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRJUIColorAdditions.xcconfig; sourceTree = "<group>"; };
+		97825A11B3646618E1F0517BD7AB6814 /* MRJUIColorAdditions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRJUIColorAdditions-umbrella.h"; sourceTree = "<group>"; };
+		985FD9F895B761F1F0C48C1B40C8DDF4 /* BasePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BasePickerView.m; path = MRJSingelPickerView/Classes/BasePickerView.m; sourceTree = "<group>"; };
+		9D0B1F6539A301F930B66D8E76DCD6B6 /* UIViewMRJFrame-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewMRJFrame-umbrella.h"; sourceTree = "<group>"; };
+		9D254DFF1AEF440D5A73F8A409B5784A /* MRJSinglePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRJSinglePickerView.h; path = MRJSingelPickerView/Classes/MRJSinglePickerView.h; sourceTree = "<group>"; };
+		A4394E6F300A5D7E47069E1AA9F9387E /* Pods-MRJSingelPickerView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRJSingelPickerView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A455EA3F14E55B4AFB8E478346FBCDA6 /* BasePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BasePickerView.h; path = MRJSingelPickerView/Classes/BasePickerView.h; sourceTree = "<group>"; };
+		A5FE4A988AD5CECCEAE9104F08E1A8B6 /* Pods-MRJSingelPickerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRJSingelPickerView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A8881D4C5DC5CC278B3FFF2DBDF2242C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A90F16D3A0AB3811AF5BC5C2F98E30B3 /* MRJSingelPickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MRJSingelPickerView.modulemap; sourceTree = "<group>"; };
+		AC5387F2DE60D382F181EC28999769BA /* ClassMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClassMacro.h; path = MRJTool/Classes/Marco/ClassMacro.h; sourceTree = "<group>"; };
+		AD0693AF1B0FBEFF5EB8556B8C2E94FE /* MRJSingelPickerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRJSingelPickerView-prefix.pch"; sourceTree = "<group>"; };
+		BE17CFCBDBAD386D61479402232B64D4 /* ScreenMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ScreenMacro.h; path = MRJTool/Classes/Marco/ScreenMacro.h; sourceTree = "<group>"; };
+		C62CD85B2C1AFF6F8CA434DB76D40912 /* MRJSingelPickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MRJSingelPickerView-dummy.m"; sourceTree = "<group>"; };
+		C91008E740B93E3A82CD929FFF81A417 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAC79D50DE7CA9E94F37FAA716EFF240 /* Pods-MRJSingelPickerView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MRJSingelPickerView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBEDF74DF884FAB97534822224BE16FC /* Pods-MRJSingelPickerView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MRJSingelPickerView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CD0CCFB3413554E461D71C1DCC00C965 /* Pods-MRJSingelPickerView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRJSingelPickerView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D10E43C082647AC45B8E87D435032403 /* Pods-MRJSingelPickerView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MRJSingelPickerView_Tests.modulemap"; sourceTree = "<group>"; };
+		D2575AB2B63A15E135D01AAAFFE511E6 /* UIView+MRJFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MRJFrame.h"; path = "UIViewMRJFrame/Classes/UIView+MRJFrame.h"; sourceTree = "<group>"; };
+		D3740DF8E6E1ED99C3CCE9255A998D81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D7A8B1F86F53B7DA971EF1C80EEDCD1C /* Pods_MRJSingelPickerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MRJSingelPickerView_Tests.framework; path = "Pods-MRJSingelPickerView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8DAA5AFBB8D59006A06D310A8FDAF5A /* Pods-MRJSingelPickerView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRJSingelPickerView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		DE2AFBECAE2ED4E9B057E1F5BE75A143 /* MRJUIColorAdditions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MRJUIColorAdditions.modulemap; sourceTree = "<group>"; };
+		EA52B812AC2CEA1581E3783346E677E8 /* Pods-MRJSingelPickerView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MRJSingelPickerView_Example-dummy.m"; sourceTree = "<group>"; };
+		EEAEEF14A606964B72BF079154294B00 /* Pods-MRJSingelPickerView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MRJSingelPickerView_Example.modulemap"; sourceTree = "<group>"; };
+		F1AD2C417FC6BF9E84B66F57A0422297 /* PropetyMarco.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PropetyMarco.h; path = MRJTool/Classes/Marco/PropetyMarco.h; sourceTree = "<group>"; };
+		F5C4A7390735F4D3CCFF542D328F8F74 /* IosVerionMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IosVerionMacro.h; path = MRJTool/Classes/Marco/IosVerionMacro.h; sourceTree = "<group>"; };
+		F60D06E128BFAEDC6F59F7A3DFC0B385 /* UIViewMRJFrame-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewMRJFrame-prefix.pch"; sourceTree = "<group>"; };
+		FAC363B01C3DB89AE80272CE459090FD /* Pods-MRJSingelPickerView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MRJSingelPickerView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FDC4073A66BFBDB93E14F5A4B7C9542D /* ColorMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ColorMacro.h; path = MRJTool/Classes/Marco/ColorMacro.h; sourceTree = "<group>"; };
+		FF036534D9920EBB9583518EADD20B0D /* Pods-MRJSingelPickerView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRJSingelPickerView_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1094ED5860F3025AF982EE0FAFB03228 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320A1EC0EAA3580B332893E488CD1ED1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3505B9524DB86DEF067C82A870290D0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65BDA6348A438DEFB6CE85CD9471B5EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB47B94545B2EF947122429EF2E2D9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BDCC72F7C19BBFAF88E805DEAFB09E4 /* Foundation.framework in Frameworks */,
+				94B43853BF774DDD578EBF903CC5AB8D /* MRJUIColorAdditions.framework in Frameworks */,
+				B394D577B79856DA6695601AC02EA881 /* UIViewMRJFrame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96B74E39312929E9C451E8F077A50A23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33AB064C0689842B925056BE036F4A7D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0526DFC33A19699A3525AE3F2448D2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F295F0EEEAEEF3DE03B41E46CE4184 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		004A422CE5AF9639DA1BD424C60202F9 /* UIViewMRJFrame */ = {
+			isa = PBXGroup;
+			children = (
+				D2575AB2B63A15E135D01AAAFFE511E6 /* UIView+MRJFrame.h */,
+				071B0AC6CB0FB80B127E724871D693B3 /* UIView+MRJFrame.m */,
+				587684736C493397E285D73F00BC5CCF /* Support Files */,
+			);
+			name = UIViewMRJFrame;
+			path = UIViewMRJFrame;
+			sourceTree = "<group>";
+		};
+		1F1AC719A40F022D0D314A1EFAB4E4C2 /* Pods-MRJSingelPickerView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				94D05817303D39B5E8398D752F64C221 /* Info.plist */,
+				D10E43C082647AC45B8E87D435032403 /* Pods-MRJSingelPickerView_Tests.modulemap */,
+				CBEDF74DF884FAB97534822224BE16FC /* Pods-MRJSingelPickerView_Tests-acknowledgements.markdown */,
+				CAC79D50DE7CA9E94F37FAA716EFF240 /* Pods-MRJSingelPickerView_Tests-acknowledgements.plist */,
+				3B344457CCA7CCC97AE3BE4BC5D45A67 /* Pods-MRJSingelPickerView_Tests-dummy.m */,
+				D8DAA5AFBB8D59006A06D310A8FDAF5A /* Pods-MRJSingelPickerView_Tests-frameworks.sh */,
+				3927AAA77BE08C6E0894CB6B64E6445E /* Pods-MRJSingelPickerView_Tests-resources.sh */,
+				2060FF9D9F7EF868D4E2D9B69DEDC29F /* Pods-MRJSingelPickerView_Tests-umbrella.h */,
+				CD0CCFB3413554E461D71C1DCC00C965 /* Pods-MRJSingelPickerView_Tests.debug.xcconfig */,
+				74B3086F78FDD4F5CE319331FAAF7F46 /* Pods-MRJSingelPickerView_Tests.release.xcconfig */,
+			);
+			name = "Pods-MRJSingelPickerView_Tests";
+			path = "Target Support Files/Pods-MRJSingelPickerView_Tests";
+			sourceTree = "<group>";
+		};
+		2819A0DC25BCA0BDA2CFB96B9624BEB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60A232F46C1BF37BA05CEA3FE91ADE90 /* MRJSingelPickerView.framework */,
+				06FAEE977FC769670CA33FCCD5710E8C /* MRJUIColorAdditions.framework */,
+				00D2B18B08CB5A0DF43A0294D1B4D104 /* Pods_MRJSingelPickerView_Example.framework */,
+				D7A8B1F86F53B7DA971EF1C80EEDCD1C /* Pods_MRJSingelPickerView_Tests.framework */,
+				06F7F469E04E6EE3C19E508B8776385D /* UIViewMRJFrame.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56A886F82C6ACFB40BFA6F3B5834B731 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F14415B767D8AD5201FECD9F12369599 /* Pods-MRJSingelPickerView_Example */,
+				1F1AC719A40F022D0D314A1EFAB4E4C2 /* Pods-MRJSingelPickerView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		570A6D101365DCEDACBBC183E8EFBE21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FB30B26B8A8177F8C7EEAC172C1E01B /* MRJTool */,
+				B91532BC97B9727E4CEB01F727BD2598 /* MRJUIColorAdditions */,
+				004A422CE5AF9639DA1BD424C60202F9 /* UIViewMRJFrame */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		587684736C493397E285D73F00BC5CCF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				42EDF98A7A9F176CC24B313A4086929A /* Info.plist */,
+				2407B9E78894BE4867265768C3526F88 /* UIViewMRJFrame.modulemap */,
+				68B0D923ECB82637A88EC0F78388AF55 /* UIViewMRJFrame.xcconfig */,
+				0F7DD6E711A70664DCD945A16CB2CD82 /* UIViewMRJFrame-dummy.m */,
+				F60D06E128BFAEDC6F59F7A3DFC0B385 /* UIViewMRJFrame-prefix.pch */,
+				9D0B1F6539A301F930B66D8E76DCD6B6 /* UIViewMRJFrame-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIViewMRJFrame";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				FB3CC786D9C0A27DD83CC9D335843048 /* Development Pods */,
+				AAE9BF828B3C898AF8B80434ECE7028E /* Frameworks */,
+				570A6D101365DCEDACBBC183E8EFBE21 /* Pods */,
+				2819A0DC25BCA0BDA2CFB96B9624BEB5 /* Products */,
+				56A886F82C6ACFB40BFA6F3B5834B731 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7FB30B26B8A8177F8C7EEAC172C1E01B /* MRJTool */ = {
+			isa = PBXGroup;
+			children = (
+				AC5387F2DE60D382F181EC28999769BA /* ClassMacro.h */,
+				FDC4073A66BFBDB93E14F5A4B7C9542D /* ColorMacro.h */,
+				F5C4A7390735F4D3CCFF542D328F8F74 /* IosVerionMacro.h */,
+				9178BF893035922C53A65B2254413582 /* Macro.h */,
+				F1AD2C417FC6BF9E84B66F57A0422297 /* PropetyMarco.h */,
+				BE17CFCBDBAD386D61479402232B64D4 /* ScreenMacro.h */,
+				214ADF21255DB7BC32895793695192EF /* StringMacro.h */,
+			);
+			name = MRJTool;
+			path = MRJTool;
+			sourceTree = "<group>";
+		};
+		86A377B3AA21076C672409F2D7E1571A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D3740DF8E6E1ED99C3CCE9255A998D81 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9B0DED0EE14E6CCE351796BD83C6A85A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A8881D4C5DC5CC278B3FFF2DBDF2242C /* LICENSE */,
+				3C7FBE68AAE951894FC2435CCA508DE1 /* MRJSingelPickerView.podspec */,
+				6E8CBAC98312F717216D6C9ACB3C2C40 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A937F9EE46EC827CA19293BD9F83E0AB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C91008E740B93E3A82CD929FFF81A417 /* Info.plist */,
+				A90F16D3A0AB3811AF5BC5C2F98E30B3 /* MRJSingelPickerView.modulemap */,
+				939FBCF540A616974A74C3321DCCF0B4 /* MRJSingelPickerView.xcconfig */,
+				C62CD85B2C1AFF6F8CA434DB76D40912 /* MRJSingelPickerView-dummy.m */,
+				AD0693AF1B0FBEFF5EB8556B8C2E94FE /* MRJSingelPickerView-prefix.pch */,
+				1C78140F67023100E41E6151E978F27A /* MRJSingelPickerView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MRJSingelPickerView";
+			sourceTree = "<group>";
+		};
+		AAE9BF828B3C898AF8B80434ECE7028E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54A872984BADD6F4134C1874D0F3082E /* MRJUIColorAdditions.framework */,
+				0E302BA554D77A0B35C3A84691673158 /* UIViewMRJFrame.framework */,
+				86A377B3AA21076C672409F2D7E1571A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD0F0A71ABD19CB1C49B40D2D2BF9552 /* MRJSingelPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				A455EA3F14E55B4AFB8E478346FBCDA6 /* BasePickerView.h */,
+				985FD9F895B761F1F0C48C1B40C8DDF4 /* BasePickerView.m */,
+				9D254DFF1AEF440D5A73F8A409B5784A /* MRJSinglePickerView.h */,
+				0DEC703B8AB3089BE85A99C2EBCE6731 /* MRJSinglePickerView.m */,
+				9B0DED0EE14E6CCE351796BD83C6A85A /* Pod */,
+				A937F9EE46EC827CA19293BD9F83E0AB /* Support Files */,
+			);
+			name = MRJSingelPickerView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B91532BC97B9727E4CEB01F727BD2598 /* MRJUIColorAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				225643BB20DD3446DDBB92DB2CB35052 /* UIColor+MRJAdditions.h */,
+				6084708E4EAAD747D38E3FC443FC3397 /* UIColor+MRJAdditions.m */,
+				D834E228F6512D0664DE59556A3B2D78 /* Support Files */,
+			);
+			name = MRJUIColorAdditions;
+			path = MRJUIColorAdditions;
+			sourceTree = "<group>";
+		};
+		D834E228F6512D0664DE59556A3B2D78 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3215D2844709BDDDB3CEC30D05AA270B /* Info.plist */,
+				DE2AFBECAE2ED4E9B057E1F5BE75A143 /* MRJUIColorAdditions.modulemap */,
+				974EEC05FD289A6109AD78B489D5166F /* MRJUIColorAdditions.xcconfig */,
+				60563BBB582889537D061ED514E0FED1 /* MRJUIColorAdditions-dummy.m */,
+				947164E8D71A6E1DF5E1F2EEB2773874 /* MRJUIColorAdditions-prefix.pch */,
+				97825A11B3646618E1F0517BD7AB6814 /* MRJUIColorAdditions-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MRJUIColorAdditions";
+			sourceTree = "<group>";
+		};
+		F14415B767D8AD5201FECD9F12369599 /* Pods-MRJSingelPickerView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8921291E138789EE2EED5DB7F4FE4FD0 /* Info.plist */,
+				EEAEEF14A606964B72BF079154294B00 /* Pods-MRJSingelPickerView_Example.modulemap */,
+				FAC363B01C3DB89AE80272CE459090FD /* Pods-MRJSingelPickerView_Example-acknowledgements.markdown */,
+				6CBA8D6958A16F643A235B4B43F1AF15 /* Pods-MRJSingelPickerView_Example-acknowledgements.plist */,
+				EA52B812AC2CEA1581E3783346E677E8 /* Pods-MRJSingelPickerView_Example-dummy.m */,
+				FF036534D9920EBB9583518EADD20B0D /* Pods-MRJSingelPickerView_Example-frameworks.sh */,
+				4B64E35869AD6D39D00389B7BBBD4481 /* Pods-MRJSingelPickerView_Example-resources.sh */,
+				7B1B3C90C8F92B5F63AAD06971BF0DFA /* Pods-MRJSingelPickerView_Example-umbrella.h */,
+				A4394E6F300A5D7E47069E1AA9F9387E /* Pods-MRJSingelPickerView_Example.debug.xcconfig */,
+				A5FE4A988AD5CECCEAE9104F08E1A8B6 /* Pods-MRJSingelPickerView_Example.release.xcconfig */,
+			);
+			name = "Pods-MRJSingelPickerView_Example";
+			path = "Target Support Files/Pods-MRJSingelPickerView_Example";
+			sourceTree = "<group>";
+		};
+		FB3CC786D9C0A27DD83CC9D335843048 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD0F0A71ABD19CB1C49B40D2D2BF9552 /* MRJSingelPickerView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0573C57BBDC4A3A51A7A43C569ACCE26 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88F36DBD920E4E482A655A265EA046A6 /* UIView+MRJFrame.h in Headers */,
+				BC3684C3C67F2447BD9FB6673CEC8288 /* UIViewMRJFrame-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08535352B87BD10FE7AC186DB1D67B9C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51073F95BC0A2D2CB027C985C4E1E3F /* Pods-MRJSingelPickerView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939FFA0D485A9CBC6EF4956EA80EF8AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948DAF51B7E402A10131B2ECCC50FCF4 /* Pods-MRJSingelPickerView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D53E8BC6EEB4C95300F5598DC1173C99 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF2856876B8EA3003EFD20D4A33BC37 /* MRJUIColorAdditions-umbrella.h in Headers */,
+				9692E74DF2B337208B7613DE42270F04 /* UIColor+MRJAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D724CD930EA5471FDD14221C9BA72CD3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D6001C1313E5C82ACC07BBDA302A202 /* BasePickerView.h in Headers */,
+				9DDAAC85788106AB937C9F3A6CCB38DC /* MRJSingelPickerView-umbrella.h in Headers */,
+				16C3B902738DCEE43CF4F37D9EFC3411 /* MRJSinglePickerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2C77154DBE47BA8AC0B084AB276EBFB3 /* UIViewMRJFrame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9D4F728B47278DBAEE30D401AFB86DA /* Build configuration list for PBXNativeTarget "UIViewMRJFrame" */;
+			buildPhases = (
+				07F0FDE9EFB9D93DB4C790374F9761D1 /* Sources */,
+				3505B9524DB86DEF067C82A870290D0D /* Frameworks */,
+				0573C57BBDC4A3A51A7A43C569ACCE26 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIViewMRJFrame;
+			productName = UIViewMRJFrame;
+			productReference = 06F7F469E04E6EE3C19E508B8776385D /* UIViewMRJFrame.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		40FE709C3908756EAADEB5FAE85CE0C2 /* Pods-MRJSingelPickerView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B196A5AAE289477EFAD3258BA64F710 /* Build configuration list for PBXNativeTarget "Pods-MRJSingelPickerView_Example" */;
+			buildPhases = (
+				B34E2DA1AA71DA2904FF4C51E1768948 /* Sources */,
+				96B74E39312929E9C451E8F077A50A23 /* Frameworks */,
+				08535352B87BD10FE7AC186DB1D67B9C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53F24C2D47E443440A2B2AC8B70BFDA0 /* PBXTargetDependency */,
+				526D6BFB23B8A21B19FEA62663EF8286 /* PBXTargetDependency */,
+				73E8F7E342D2F2EE1B3F8A36CAD68665 /* PBXTargetDependency */,
+			);
+			name = "Pods-MRJSingelPickerView_Example";
+			productName = "Pods-MRJSingelPickerView_Example";
+			productReference = 00D2B18B08CB5A0DF43A0294D1B4D104 /* Pods_MRJSingelPickerView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		67DB8F107DD5EA25119DF09C29378F0F /* Pods-MRJSingelPickerView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 619ACB49300D79DA827E182AC05A51CA /* Build configuration list for PBXNativeTarget "Pods-MRJSingelPickerView_Tests" */;
+			buildPhases = (
+				6AD7FBC55C353EA14785B2A346E1080C /* Sources */,
+				1094ED5860F3025AF982EE0FAFB03228 /* Frameworks */,
+				939FFA0D485A9CBC6EF4956EA80EF8AC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2169B748281F0DF981A9963353DC236 /* PBXTargetDependency */,
+			);
+			name = "Pods-MRJSingelPickerView_Tests";
+			productName = "Pods-MRJSingelPickerView_Tests";
+			productReference = D7A8B1F86F53B7DA971EF1C80EEDCD1C /* Pods_MRJSingelPickerView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DAA1272559952B4596781D33399C6C1B /* MRJUIColorAdditions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FD4F492EB9307DEE0A80B6BEE7DB17C /* Build configuration list for PBXNativeTarget "MRJUIColorAdditions" */;
+			buildPhases = (
+				DC519F4B74C2971BD76A2C9BDC7B959E /* Sources */,
+				C0526DFC33A19699A3525AE3F2448D2F /* Frameworks */,
+				D53E8BC6EEB4C95300F5598DC1173C99 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MRJUIColorAdditions;
+			productName = MRJUIColorAdditions;
+			productReference = 06FAEE977FC769670CA33FCCD5710E8C /* MRJUIColorAdditions.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD23D48CE20581B150FC7C984B94AA44 /* MRJSingelPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AF1468770F084B4D83728114255A3DD /* Build configuration list for PBXNativeTarget "MRJSingelPickerView" */;
+			buildPhases = (
+				0FAB48895E0FC675C8F94B100B33E3E2 /* Sources */,
+				4EB47B94545B2EF947122429EF2E2D9A /* Frameworks */,
+				D724CD930EA5471FDD14221C9BA72CD3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95378C0F05C15F76054B524544301FD3 /* PBXTargetDependency */,
+				B6433E07725CFF24E9A6EBE4DEB26FBC /* PBXTargetDependency */,
+			);
+			name = MRJSingelPickerView;
+			productName = MRJSingelPickerView;
+			productReference = 60A232F46C1BF37BA05CEA3FE91ADE90 /* MRJSingelPickerView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2819A0DC25BCA0BDA2CFB96B9624BEB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD23D48CE20581B150FC7C984B94AA44 /* MRJSingelPickerView */,
+				DAA1272559952B4596781D33399C6C1B /* MRJUIColorAdditions */,
+				40FE709C3908756EAADEB5FAE85CE0C2 /* Pods-MRJSingelPickerView_Example */,
+				67DB8F107DD5EA25119DF09C29378F0F /* Pods-MRJSingelPickerView_Tests */,
+				2C77154DBE47BA8AC0B084AB276EBFB3 /* UIViewMRJFrame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07F0FDE9EFB9D93DB4C790374F9761D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B05AA516F100D353F656A14D53D4B59 /* UIView+MRJFrame.m in Sources */,
+				2E2E7802DE58BDE13B10D7EABB561842 /* UIViewMRJFrame-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FAB48895E0FC675C8F94B100B33E3E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAD050ACB0B6BE34E29C9B5A753EA09 /* BasePickerView.m in Sources */,
+				90DBE3BC172F90F20E24A022B8142B08 /* MRJSingelPickerView-dummy.m in Sources */,
+				9ECF789E0F7CAFE7B5406B1BDA0BCF83 /* MRJSinglePickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AD7FBC55C353EA14785B2A346E1080C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F2395B53C5B4487993FAA6B06333C8 /* Pods-MRJSingelPickerView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B34E2DA1AA71DA2904FF4C51E1768948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF9880CB4C4B2CF52582485C4FB5365 /* Pods-MRJSingelPickerView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC519F4B74C2971BD76A2C9BDC7B959E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8ED3A0B6A6197A86B5DBC3D32290905 /* MRJUIColorAdditions-dummy.m in Sources */,
+				FB777F89D00F898DAEA682015CFF89AF /* UIColor+MRJAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		526D6BFB23B8A21B19FEA62663EF8286 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MRJUIColorAdditions;
+			target = DAA1272559952B4596781D33399C6C1B /* MRJUIColorAdditions */;
+			targetProxy = 31E4EE7BA039FD45D99A7D77BBB30A78 /* PBXContainerItemProxy */;
+		};
+		53F24C2D47E443440A2B2AC8B70BFDA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MRJSingelPickerView;
+			target = FD23D48CE20581B150FC7C984B94AA44 /* MRJSingelPickerView */;
+			targetProxy = D7E821BA9F188D8D51B54AC221DB099A /* PBXContainerItemProxy */;
+		};
+		73E8F7E342D2F2EE1B3F8A36CAD68665 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIViewMRJFrame;
+			target = 2C77154DBE47BA8AC0B084AB276EBFB3 /* UIViewMRJFrame */;
+			targetProxy = 124AB6EDF4C363A6F4F5A28FF94BC59C /* PBXContainerItemProxy */;
+		};
+		95378C0F05C15F76054B524544301FD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MRJUIColorAdditions;
+			target = DAA1272559952B4596781D33399C6C1B /* MRJUIColorAdditions */;
+			targetProxy = 26039DD4FA51D05A34A7DA110D45DBD6 /* PBXContainerItemProxy */;
+		};
+		B6433E07725CFF24E9A6EBE4DEB26FBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIViewMRJFrame;
+			target = 2C77154DBE47BA8AC0B084AB276EBFB3 /* UIViewMRJFrame */;
+			targetProxy = E0CDB4E5F9397E94BEF4E12A0977020B /* PBXContainerItemProxy */;
+		};
+		E2169B748281F0DF981A9963353DC236 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MRJSingelPickerView_Example";
+			target = 40FE709C3908756EAADEB5FAE85CE0C2 /* Pods-MRJSingelPickerView_Example */;
+			targetProxy = 29B7453827A4A7CCE39D80307B073516 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CD58D1E7EB7B8F2316B90CC93DC0C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68B0D923ECB82637A88EC0F78388AF55 /* UIViewMRJFrame.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIViewMRJFrame/UIViewMRJFrame-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIViewMRJFrame/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIViewMRJFrame/UIViewMRJFrame.modulemap";
+				PRODUCT_MODULE_NAME = UIViewMRJFrame;
+				PRODUCT_NAME = UIViewMRJFrame;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		03FF233D99F5BBBA8BF30A9725CB2EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4394E6F300A5D7E47069E1AA9F9387E /* Pods-MRJSingelPickerView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MRJSingelPickerView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MRJSingelPickerView_Example/Pods-MRJSingelPickerView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2781E7740B7350F6A5B5B7C489DC3588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 939FBCF540A616974A74C3321DCCF0B4 /* MRJSingelPickerView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MRJSingelPickerView/MRJSingelPickerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MRJSingelPickerView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MRJSingelPickerView/MRJSingelPickerView.modulemap";
+				PRODUCT_MODULE_NAME = MRJSingelPickerView;
+				PRODUCT_NAME = MRJSingelPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6AB177BB7431787FD0D8941BBA366D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 974EEC05FD289A6109AD78B489D5166F /* MRJUIColorAdditions.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MRJUIColorAdditions/MRJUIColorAdditions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MRJUIColorAdditions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MRJUIColorAdditions/MRJUIColorAdditions.modulemap";
+				PRODUCT_MODULE_NAME = MRJUIColorAdditions;
+				PRODUCT_NAME = MRJUIColorAdditions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7B7A9B02AFF6DA5E85B8E190DB1ED3F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD0CCFB3413554E461D71C1DCC00C965 /* Pods-MRJSingelPickerView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MRJSingelPickerView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MRJSingelPickerView_Tests/Pods-MRJSingelPickerView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		938306945F1BDF8ACAAA183EE8BCE978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68B0D923ECB82637A88EC0F78388AF55 /* UIViewMRJFrame.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIViewMRJFrame/UIViewMRJFrame-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIViewMRJFrame/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIViewMRJFrame/UIViewMRJFrame.modulemap";
+				PRODUCT_MODULE_NAME = UIViewMRJFrame;
+				PRODUCT_NAME = UIViewMRJFrame;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		96851EBDAEA2260654871A54C26C9BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 939FBCF540A616974A74C3321DCCF0B4 /* MRJSingelPickerView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MRJSingelPickerView/MRJSingelPickerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MRJSingelPickerView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MRJSingelPickerView/MRJSingelPickerView.modulemap";
+				PRODUCT_MODULE_NAME = MRJSingelPickerView;
+				PRODUCT_NAME = MRJSingelPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C99B466AC8A55280FFD9CED779C9EC5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5FE4A988AD5CECCEAE9104F08E1A8B6 /* Pods-MRJSingelPickerView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MRJSingelPickerView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MRJSingelPickerView_Example/Pods-MRJSingelPickerView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E7965498B885D9BCB6AFAF75A78E5FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 974EEC05FD289A6109AD78B489D5166F /* MRJUIColorAdditions.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MRJUIColorAdditions/MRJUIColorAdditions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MRJUIColorAdditions/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MRJUIColorAdditions/MRJUIColorAdditions.modulemap";
+				PRODUCT_MODULE_NAME = MRJUIColorAdditions;
+				PRODUCT_NAME = MRJUIColorAdditions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE7292C33EC4CCF549D31E5529619ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74B3086F78FDD4F5CE319331FAAF7F46 /* Pods-MRJSingelPickerView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MRJSingelPickerView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MRJSingelPickerView_Tests/Pods-MRJSingelPickerView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B196A5AAE289477EFAD3258BA64F710 /* Build configuration list for PBXNativeTarget "Pods-MRJSingelPickerView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03FF233D99F5BBBA8BF30A9725CB2EEA /* Debug */,
+				C99B466AC8A55280FFD9CED779C9EC5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		619ACB49300D79DA827E182AC05A51CA /* Build configuration list for PBXNativeTarget "Pods-MRJSingelPickerView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B7A9B02AFF6DA5E85B8E190DB1ED3F0 /* Debug */,
+				EE7292C33EC4CCF549D31E5529619ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FD4F492EB9307DEE0A80B6BEE7DB17C /* Build configuration list for PBXNativeTarget "MRJUIColorAdditions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AB177BB7431787FD0D8941BBA366D9A /* Debug */,
+				E7965498B885D9BCB6AFAF75A78E5FD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AF1468770F084B4D83728114255A3DD /* Build configuration list for PBXNativeTarget "MRJSingelPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2781E7740B7350F6A5B5B7C489DC3588 /* Debug */,
+				96851EBDAEA2260654871A54C26C9BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9D4F728B47278DBAEE30D401AFB86DA /* Build configuration list for PBXNativeTarget "UIViewMRJFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03CD58D1E7EB7B8F2316B90CC93DC0C4 /* Debug */,
+				938306945F1BDF8ACAAA183EE8BCE978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

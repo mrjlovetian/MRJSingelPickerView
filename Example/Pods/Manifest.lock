@@ -1,0 +1,31 @@
+PODS:
+  - MRJSingelPickerView (0.1.0):
+    - MRJTool
+    - MRJUIColorAdditions
+    - UIViewMRJFrame
+  - MRJTool (0.1.2.5)
+  - MRJUIColorAdditions (0.1.0)
+  - UIViewMRJFrame (0.1.1)
+
+DEPENDENCIES:
+  - MRJSingelPickerView (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - MRJTool
+    - MRJUIColorAdditions
+    - UIViewMRJFrame
+
+EXTERNAL SOURCES:
+  MRJSingelPickerView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MRJSingelPickerView: 1dcc6b71a1278269402d57e799ddc13a6930cd7a
+  MRJTool: ad0b5d8dcd7bc5056a97fc2854b11d758f766301
+  MRJUIColorAdditions: a72dd04fb5d358f81fbd7eae8fc9da76b6f03590
+  UIViewMRJFrame: f6dd02664727ae342948b9a04e9e821b62b03e43
+
+PODFILE CHECKSUM: 057f3f4caae7985e1a20e4976cd8cc306a63cc5d
+
+COCOAPODS: 1.5.0

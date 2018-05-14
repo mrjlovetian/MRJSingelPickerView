@@ -1,0 +1,6 @@
+framework module MRJSingelPickerView {
+  umbrella header "MRJSingelPickerView-umbrella.h"
+
+  export *
+  module * { export * }
+}
