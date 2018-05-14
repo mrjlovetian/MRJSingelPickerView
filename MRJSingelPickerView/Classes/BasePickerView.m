@@ -41,8 +41,7 @@
     return 55;
 }
 
-- (UIView *)translucentView
-{
+- (UIView *)translucentView {
     if (nil == _translucentView) {
         _translucentView = [[UIView alloc]initWithFrame:self.frame];
         _translucentView.backgroundColor = [UIColor blackColor];

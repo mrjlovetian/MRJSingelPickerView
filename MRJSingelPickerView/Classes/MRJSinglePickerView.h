@@ -9,6 +9,7 @@
 #import "BasePickerView.h"
 
 @class MRJSinglePickerView;
+
 @protocol SinglePickerViewDelegate <NSObject>
 
 - (void)singlePickerView:(MRJSinglePickerView *)view indetif:(NSString *)indetif didClickedButtonAtIndex:(int)buttonIndex;

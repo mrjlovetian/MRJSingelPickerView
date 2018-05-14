@@ -46,7 +46,7 @@ static CGFloat const kScrollViewItemHeight = 36.0f;
     [self setSelectIndex:buttonIndex];
 }
 
--(void)setSelectIndex:(NSUInteger)buttonIndex {
+- (void)setSelectIndex:(NSUInteger)buttonIndex {
     selectIndex = buttonIndex;
     [self highlightLabelInArray:_labels atIndex:selectIndex];
     [self setScrollView:self.scrollView atIndex:selectIndex animated:YES];
@@ -157,7 +157,7 @@ static CGFloat const kScrollViewItemHeight = 36.0f;
 }
 
 
--(UIScrollView *)scrollView {
+- (UIScrollView *)scrollView {
     if (!_scrollView) {
         _scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, [self getPickerBarHeight], ScreenSzie.width, [self getPickerHeight] - [self getPickerBarHeight])];
         _scrollView.delegate = self;
@@ -172,6 +172,7 @@ static CGFloat const kScrollViewItemHeight = 36.0f;
 }
 
 - (void)titleButton:(id)send {
+    [[[UIApplication sharedApplication] keyWindow] endEditing:YES];
     [super titleButton:send];
     UIButton *button = (UIButton *)send;
     if (button.tag == 2) {
