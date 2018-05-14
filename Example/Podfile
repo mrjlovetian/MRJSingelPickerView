@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MRJSingelPickerView_Example' do
+  pod 'MRJSingelPickerView', :path => '../'
+
+  target 'MRJSingelPickerView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
