@@ -7,7 +7,9 @@
 //
 
 #import "BasePickerView.h"
-
+#import "Macro.h"
+#import "UIColor+MRJAdditions.h"
+#import "UIView+MRJFrame.h"
 
 @interface BasePickerView() {
     CGFloat _pickerHeight;
@@ -130,18 +132,20 @@
     } else {
         [[UIApplication sharedApplication].keyWindow addSubview:self];
     }
+    MRJWeakSelf(self);
     [self animateWithView:_contentView
                     frame:CGRectMake(0, ScreenSzie.height - _pickerHeight, ScreenSzie.width, _pickerHeight)];
     [UIView animateWithDuration:0.3 animations:^{
-        _translucentView.alpha = 0.5;
+        weakself.translucentView.alpha = 0.5;
     }];
 }
 
 - (void)endPicker {
     [self animateWithView:_contentView
                     frame:CGRectMake(0,ScreenSzie.height, ScreenSzie.width, _pickerHeight)];
+    MRJWeakSelf(self);
     [UIView animateWithDuration:0.4 animations:^{
-        _translucentView.alpha = 0.0;
+        weakself.translucentView.alpha = 0.0;
     } completion:^(BOOL finished) {
         self.hidden = YES;
         [self removeFromSuperview];

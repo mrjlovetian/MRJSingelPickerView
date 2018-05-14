@@ -1,18 +1,18 @@
 {
   "name": "MRJSingelPickerView",
   "version": "0.1.0",
-  "summary": "A short description of MRJSingelPickerView.",
+  "summary": "单项选择器",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/mrjlovetian@gmail.com/MRJSingelPickerView",
+  "homepage": "https://github.com/mrjlovetian/MRJSingelPickerView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "mrjlovetian@gmail.com": "yuhongjiang642@tops001.com"
+    "mrjlovetian@gmail.com": "MRJ"
   },
   "source": {
-    "git": "https://github.com/mrjlovetian@gmail.com/MRJSingelPickerView.git",
+    "git": "https://github.com/mrjlovetian/MRJSingelPickerView.git",
     "tag": "0.1.0"
   },
   "platforms": {

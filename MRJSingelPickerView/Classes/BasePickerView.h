@@ -7,9 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Macro.h"
-#import "UIColor+MRJAdditions.h"
-#import "UIView+MRJFrame.h"
 
 @interface BasePickerView : UIView
 

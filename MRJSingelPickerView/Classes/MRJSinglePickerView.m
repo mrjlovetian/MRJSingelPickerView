@@ -7,6 +7,9 @@
 //
 
 #import "MRJSinglePickerView.h"
+#import "Macro.h"
+#import "UIColor+MRJAdditions.h"
+#import "UIView+MRJFrame.h"
 
 static CGFloat const kScrollViewItemHeight = 36.0f;
 
