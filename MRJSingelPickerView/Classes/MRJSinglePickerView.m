@@ -172,7 +172,6 @@ static CGFloat const kScrollViewItemHeight = 36.0f;
 }
 
 - (void)titleButton:(id)send {
-    [[[UIApplication sharedApplication] keyWindow] endEditing:YES];
     [super titleButton:send];
     UIButton *button = (UIButton *)send;
     if (button.tag == 2) {

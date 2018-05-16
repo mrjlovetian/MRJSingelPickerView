@@ -127,6 +127,7 @@
 
 - (void)startPicker {
     self.hidden = NO;
+    [[[UIApplication sharedApplication] keyWindow] endEditing:YES];
     if (_currentVC) {
         [_currentVC.view addSubview:self];
     } else {
