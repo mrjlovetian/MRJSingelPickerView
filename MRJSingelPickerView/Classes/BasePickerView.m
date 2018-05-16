@@ -1,9 +1,9 @@
 //
 //  BasePickerView.m
-//  IWant
+//  MRJ
 //
-//  Created by tops on 2018/5/10.
-//  Copyright © 2018年 want. All rights reserved.
+//  Created by MRJ on 2018/5/10.
+//  Copyright © 2018年 MRJ. All rights reserved.
 //
 
 #import "BasePickerView.h"
@@ -11,7 +11,8 @@
 #import "UIColor+MRJAdditions.h"
 #import "UIView+MRJFrame.h"
 
-@interface BasePickerView() {
+@interface BasePickerView()
+{
     CGFloat _pickerHeight;
     UIViewController *_currentVC;
 }

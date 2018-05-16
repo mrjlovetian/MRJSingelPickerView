@@ -1,9 +1,9 @@
 //
 //  SinglePickerView.h
-//  IWant
+//  MRJ
 //
-//  Created by tops on 2018/5/10.
-//  Copyright © 2018年 want. All rights reserved.
+//  Created by MRJ on 2018/5/10.
+//  Copyright © 2018年 MRJ. All rights reserved.
 //
 
 #import "BasePickerView.h"
@@ -24,7 +24,6 @@
 @property (nonatomic, copy, readonly) NSString *indetif;
 
 - (void)setData:(NSArray *)titles indetif:(NSString *)indetif selectIndex:(NSUInteger)buttonIndex;
-
 - (void)setSelectIndex:(NSUInteger)buttonIndex;
 
 @end
