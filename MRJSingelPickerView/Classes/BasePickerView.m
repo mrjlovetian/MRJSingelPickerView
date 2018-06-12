@@ -97,8 +97,8 @@
         case 1:
             [self endPicker];
             break;
-        case 2:{
-        } break;
+        case 2:
+            break;
         default: break;
     }
 }

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MRJSingelPickerView'
-  s.version          = '0.1.0.3'
+  s.version          = '0.1.0.4'
   s.summary          = '单项选择器'
 
 # This description is used to generate tags and improve search results.

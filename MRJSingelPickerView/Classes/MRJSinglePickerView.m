@@ -54,16 +54,18 @@ static CGFloat const kScrollViewItemHeight = 36.0f;
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
-    
     int index = [self getIndexForScrollViewPosition:scrollView];
     selectIndex = index;
     [self highlightLabelInArray:_labels atIndex:index];
 }
 
 - (void)highlightLabelInArray:(NSMutableArray*)labels atIndex:(NSInteger)index {
-    if (!labels) return;
-    if (index > labels.count) return;
-    if (index < 0) return;
+    if (!labels)
+        return;
+    if (index > labels.count)
+        return;
+    if (index < 0)
+        return;
     
     for (int i = 0; i < labels.count; i++) {
         UILabel *label = (UILabel *)[labels objectAtIndex:i];
